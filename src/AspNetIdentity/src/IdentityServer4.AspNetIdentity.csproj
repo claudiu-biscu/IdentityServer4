@@ -40,8 +40,6 @@
     
   <ItemGroup>
     <PackageReference Include="IdentityServer4" />
-    
-    <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>

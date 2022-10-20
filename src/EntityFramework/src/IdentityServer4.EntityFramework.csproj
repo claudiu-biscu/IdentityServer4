@@ -35,7 +35,5 @@
   <ItemGroup>
     <PackageReference Include="IdentityServer4" />
     <PackageReference Include="IdentityServer4.EntityFramework.Storage" />
-    
-    <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
   </ItemGroup>
 </Project>
