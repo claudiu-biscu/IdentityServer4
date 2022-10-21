@@ -41,6 +41,7 @@ namespace IdentityServer4.Endpoints
 
         public override async Task<IEndpointResult> ProcessAsync(HttpContext context)
         {
+            //test
             if (!HttpMethods.IsGet(context.Request.Method))
             {
                 Logger.LogWarning("Invalid HTTP method for authorize endpoint.");
